@@ -1,0 +1,4 @@
+fn main() {
+    let lines = std::io::lines().collect::<Result<Vec<_>,_>>().expect("couldn't read lines");
+    println!("Hello, world!");
+}
